@@ -41,7 +41,7 @@ class MainAdapter(val context: Context) : RecyclerView.Adapter<RecyclerView.View
                     setRecycledViewPool(this@MainAdapter.recycledViewPool)
                 }
             }
-            else -> { throw IllegalArgumentException("viewType in HomeAdapter#onBindViewHolder is faulty.") }
+            else -> { throw IllegalArgumentException("viewType in onBindViewHolder is faulty.") }
         }
     }
 
