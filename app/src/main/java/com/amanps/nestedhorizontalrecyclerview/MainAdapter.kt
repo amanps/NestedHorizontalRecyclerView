@@ -6,7 +6,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.recyclerview_horizontal.view.*
+import kotlinx.android.synthetic.main.horizontal_section.view.*
 
 class MainAdapter(val context: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
@@ -22,7 +22,7 @@ class MainAdapter(val context: Context) : RecyclerView.Adapter<RecyclerView.View
         return when (viewType) {
             HORIZONTAL_LIST -> {
                 val horizontalView = LayoutInflater.from(parent.context)
-                        .inflate(R.layout.recyclerview_horizontal, parent, false)
+                        .inflate(R.layout.horizontal_section, parent, false)
                 HorizontalViewHolder(horizontalView)
             }
             else -> {
