@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NestedHorizontalRecyclerView</string>
+    <string name="section_name">Section</string>
+</resources>
